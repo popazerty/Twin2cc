@@ -2,3 +2,5 @@ make -f Makefile.arm clean
 make -f Makefile.arm
 make -f Makefile.x86 clean
 make -f Makefile.x86
+make -f Makefile.sh4 clean
+make -f Makefile.sh4
