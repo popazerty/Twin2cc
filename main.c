@@ -13,8 +13,8 @@
 int END_PROCESS =0;
 struct config_data cfg;
 
-char config_file[256] = "/etc/twin/twin2cc.cfg";
-char config_channelinfo[256]="/etc/twin/twin2cc.channelinfo";
+char config_file[256] = "/var/keys/twin2cc.cfg";
+char config_channelinfo[256]="/var/keys/twin2cc.channelinfo";
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 uint32 ecm_crc( uchar *ecm, int ecmlen)
