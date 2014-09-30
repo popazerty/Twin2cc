@@ -8,7 +8,7 @@ RANLIB=$(CROSS)ranlib
 STRIP=$(CROSS)strip
 NM=$(CROSS)nm
 OBJDUMP=$(CROSS)objdump
-CFLAGS	= -O2 -I.
+CFLAGS	= -ggdb3 -O2 $(OPTS) -DST_7201  -DST_OSLINUX  -DARCHITECTURE_ST40
 LFLAGS	= -lpthread
 #KERNELDIR= /snakeos-sdk/kernels/linux
 
